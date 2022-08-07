@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbarItem{
+    @apply flex hover:bg-blue-700 w-[250px] justify-center mx-5 my-auto h-[45px] text-center p-2 
+}
